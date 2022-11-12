@@ -2,12 +2,11 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import { Link } from "react-router-dom";
-import "../App.css";
 
 export default function Header(props) {
   console.log(props.logOutButton);
   return (
-    <div className="App">
+    <div>
       <AppBar position="static">
         <Toolbar
           className="Negative"

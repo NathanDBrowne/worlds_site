@@ -43,7 +43,6 @@
   text-decoration: none;
   font-weight: 400;
 }
-
 .App-link:hover {
   color: #ff0000;
   text-decoration: none;
@@ -55,7 +54,6 @@
   background-color: #000000;
   align-items: center;
 }
-
 .ProfileButton:hover {
   box-shadow: rgba(255, 0, 0, 0.16) 0px 1px 4px, rgb(255, 0, 0) 0px 0px 0px 3px;
 }

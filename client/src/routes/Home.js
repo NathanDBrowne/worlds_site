@@ -1,4 +1,4 @@
-import "../App.css";
+// import "../App.css";
 import HeroSection from "../components/HeroSection";
 import Header from "../components/Header";
 import { useState } from "react";
@@ -6,6 +6,7 @@ import jwt_decode from "jwt-decode";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 import { useEffect } from "react";
+import Footer from "../components/Footer";
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const App = () => {
@@ -60,6 +61,7 @@ const App = () => {
       <Header user={user} logOutButton={<LogoutButton />} />
       <HeroSection />
       <h1>Welcome to the home page!!</h1>
+      <Footer />
     </div>
   );
 };
