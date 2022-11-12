@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import { useState } from "react";
 import jwt_decode from "jwt-decode";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import Button from "@mui/material/Button";
 
 import { useEffect } from "react";
 import Footer from "../components/Footer";
@@ -35,7 +36,15 @@ const App = () => {
               {<AccountCircleIcon />}
               {"  "}
               {user.given_name}{" "}
-              {<button onClick={(e) => handleLogout(e)}>Sign Out</button>}
+              {
+                <Button
+                  color="error"
+                  variant="outlined"
+                  onClick={(e) => handleLogout(e)}
+                >
+                  Sign Out
+                </Button>
+              }
             </h2>
           </div>
         )}

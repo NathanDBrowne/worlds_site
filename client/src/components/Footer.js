@@ -15,32 +15,16 @@ function Footer() {
                 {<p style={{ color: "#38de21" }}>Reach Out</p>}
               </div>
               <div>+44(0)7312 267 345</div>
-              <div>nathandbrowne@gmail.com</div>
+              <div>inquiries@worldscollective.com</div>
             </div>
             <div className="FooterLinkItems">
               <div className="FooterLinkTitle">
-                {<p style={{ color: "#ff0055" }}>About Me</p>}
+                {<p style={{ color: "#ff0055" }}>About Us</p>}
               </div>
-              <div
-                className="FooterScrollLink"
-                to="projects"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
+              <div className="FooterScrollLink" to="projects">
                 Projects
               </div>
-              <div
-                className="FooterScrollLink"
-                to="stack"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
+              <div className="FooterScrollLink" to="stack">
                 My Stack
               </div>
               <div
@@ -81,7 +65,7 @@ function Footer() {
       <div className="SocialMedia">
         <div className="SocialMediaWrap">
           <div className="SocialLogo" to="/">
-            Nate Browne
+            World's Collective
           </div>
           <div className="WebsiteRights">World's Collective 2023</div>
           <div className="SocialIcons">
