@@ -1,6 +1,9 @@
+*:not(img) {
+  font-family: "Sono", sans-serif;
+}
+
 .App {
   text-align: center;
-  font-family: "Sono", sans-serif;
 }
 
 .App-logo {
@@ -16,7 +19,6 @@
 }
 
 .App-header {
-  background-color: #d8d8d8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +26,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(0, 0, 0);
+}
+
+.App-header-norm {
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.Negative {
+  background-color: black;
+  color: #d8d8d8;
 }
 
 .App-link {
@@ -38,8 +50,18 @@
   font-weight: 600;
 }
 
-p {
-  font-family: "Sono";
+.ProfileButton {
+  display: inline-block;
+  background-color: #000000;
+  align-items: center;
+}
+
+.ProfileButton:hover {
+  box-shadow: rgba(255, 0, 0, 0.16) 0px 1px 4px, rgb(255, 0, 0) 0px 0px 0px 3px;
+}
+
+p,
+h2 {
   font-weight: 700;
 }
 
