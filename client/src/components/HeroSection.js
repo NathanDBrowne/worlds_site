@@ -6,7 +6,14 @@ const HeroSection = () => {
   return (
     <div className="HeroContainer" id={"hero"}>
       <div className="HeroBg">
-        <video className="VideoBg" autoPlay loop src={Video} type="video/mp4" />
+        <video
+          className="VideoBg"
+          autoPlay
+          muted
+          loop
+          src={Video}
+          type="video/mp4"
+        />
       </div>
       <div className="HeroContent">
         <h1
@@ -18,7 +25,7 @@ const HeroSection = () => {
           Welcome to the World's Collective.
         </h1>
         <h2>
-          <Link className="App-link" to="/home">
+          <Link className="App-link" to="/events">
             See what's on >>>
           </Link>
         </h2>
